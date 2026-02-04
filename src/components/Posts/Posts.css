@@ -1,0 +1,23 @@
+.posts {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.posts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.posts__status {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #666;
+}
+
+.posts__status--error {
+  color: #b00020;
+}
+

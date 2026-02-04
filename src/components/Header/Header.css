@@ -1,0 +1,22 @@
+.header {
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.header__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px 20px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header__subtitle {
+  margin: 6px 0 0;
+  color: #666;
+  font-size: 13px;
+}
+
